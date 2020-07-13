@@ -1,5 +1,5 @@
 const dialogflow = require('dialogflow');
-const configs = require('./token/pianist-otmbbc-9a514c9481f5')
+const configs = require('./dialogflow')
 
 
 const sessionClient = new dialogflow.SessionsClient({
